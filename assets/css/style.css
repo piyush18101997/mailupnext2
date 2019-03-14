@@ -1,0 +1,364 @@
+.fullHeader {
+    background-size: 100%;
+	width: 100%;
+	height: 28vh;
+	margin:  0px;
+	padding: 0px;
+	}
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+    background-color: white;
+    z-index: 9999;
+  }
+.menu {
+	width: 100%;
+	height: 100px;
+	margin: -7px 0px 0px 0px;
+	}
+.leftmenu {
+	width: 15%;
+	line-height: 132px;
+	float: left;
+	}
+.leftmenu img{
+	margin-left: 20px;
+	color: orange; 
+	width: 100%
+	}
+.rightmenu {
+	width: 80%;
+	height: 50%;
+	float: right;
+	margin-top: 22px;
+	}
+.rightmenu ul{
+	margin-left: 0px;
+	}
+.rightmenu ul li {
+	display: inline-block;
+	margin-left: 35px;
+	color: black;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 20px;
+	}
+.rightmenu ul li:hover{
+	color: #00FF00;
+	}
+#btnFeature1 {
+	width: 130px;
+	height: 30px;
+	border-radius: 5%;
+	background-color: #48e3fa;
+	font-size: 12px;
+	text-transform:uppercase;
+	color: white;
+	cursor: pointer;
+	}
+#btnFeature2 {
+	width: 80px;
+	height: 30px;
+	border-radius: 5%;
+	background-color: #48e3fa;
+	font-size: 15px;
+	text-transform:uppercase;
+	color: white;
+	cursor: pointer;
+	}
+.container2-text {
+	-webkit-clip-path: polygon(100% 0, 100% 86%, 0 100%, 0 8%);
+	clip-path: polygon(100% 0, 100% 86%, 0 100%, 0 8%);
+	background-color: #7d95ff;
+	z-index: -8;
+	 
+}
+.container3clip {
+	-webkit-clip-path: polygon(100% 0, 100% 22%, 100% 72%, 3% 99%, 0 100%, 0 100%, 0 10%);
+	clip-path: polygon(100% 0, 100% 22%, 100% 72%, 3% 99%, 0 100%, 0 100%, 0 10%);
+	background-color: #7d95ff;
+	}
+.container4clip {
+	-webkit-clip-path: polygon(100% 11%, 100% 100%, 0% 75%, 0 0);
+	clip-path: polygon(100% 11%, 100% 100%, 0% 75%, 0 0);
+	background-color: #7d95ff;
+	}
+.container6 {
+	-webkit-clip-path: polygon(0 8%, 100% 0, 100% 86%, 0% 100%);
+	clip-path: polygon(0 8%, 100% 0, 100% 86%, 0% 100%);
+	background-color: #7d95ff;
+	background: url(../img/more-stuff-bg.png) no-repeat center, linear-gradient(135deg, #bfacff 0, #795fff 100%);
+	}
+.container8 {
+	-webkit-clip-path: polygon(0 22%, 100% 0, 100% 74%, 0% 100%);
+	clip-path: polygon(0 22%, 100% 0, 100% 74%, 0% 100%);
+	background-color: #7d95ff;
+	background: url(../img/call-action-bg.png) no-repeat center, linear-gradient(135deg, #bfacff 0, #795fff 100%);
+	 
+	}
+.container2 {
+	background-color: unset;
+	}
+.container2-text {
+	text-align: center;
+	width: 100%;
+	}
+ 
+#banner-contant {
+	height: auto;
+	font-size: 50px;
+	font-weight: unset;
+	color: white;
+	}
+#banner-paragraph {
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1px;
+	}
+#container2btn {
+	background-color: #48e3fa;
+	cursor: pointer;
+	width: 300px;
+	height: 60px;
+	font-size: 17px;
+	} 
+.img1 {
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	top: 60%;
+	}
+.space {
+	width: 100%;
+	height: 250px;
+	}
+.img2 {
+	margin-top: 50px;
+	display: flex;
+	}
+#complite-text {
+	font-size: 75px;
+	margin-top: 100px;
+	font-weight: bold;
+	}
+#Complete-text-paragraph {
+	font-size: 22px;
+	font-weight: normal;
+	letter-spacing: 1.2px;
+
+	}
+.pattern-right {
+	z-index: -1;
+	position: absolute;
+	justify-content: right;
+	margin-top: -155px;
+	}
+.btn2 {
+	text-align: center;
+	margin-top: -20px;
+	margin-left: 80px;
+	}
+#IMG2btn {
+	background-color: #48e3fa;
+	cursor: pointer;
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+	}
+.container2space {
+	height: 100px;
+}
+#container3-heading{
+	font-size: 75px;
+	color: black;
+	margin-left: 80px;
+}
+.container3-text {
+	display: flex;
+}
+.rightimg2 {
+	margin-top: 70px;
+	margin-left: 2px;
+
+}
+#container3-paragraph {
+	font-weight: normal;
+	font-size: 22px;
+	width: 600px;
+	letter-spacing: 1.2px;
+}
+.rightimg3 {
+	margin-top: -80px;
+}
+.container3space {
+	height: 100px;
+}
+.container4img {
+	display: flex;
+}
+.rightimg4 {
+	margin-top: 100px;
+	margin-left: 78px;
+	transform: skew(20deg);
+}
+#container4-heading {
+	font-weight: bold;
+	font-size: 90px;
+	margin-left: 90px;
+	margin-top: -40px;
+}
+#container4-paragraph {
+	font-weight: normal;
+	font-size: 25px;
+}
+#IMG3btn {
+	background-color: #48e3fa;
+	cursor: pointer;
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+
+}
+.freebutton {
+	padding-right: 60px;
+	margin-top: -50px;
+}
+ 
+.container5space {
+	height: 100px;
+
+}
+.container5heading {
+	display: flex;
+}
+
+#container5heading-text {
+	font-weight: bold;
+	font-size: 70px;
+	margin-left: 90px;
+}
+#container5paragraph {
+	font-weight: normal;
+	font-size: 25px;
+}
+.rightimg5 {
+	margin-top: -47%;
+    margin-left: -95px;
+}
+#IMG5btn {
+	background-color: #48e3fa;
+	cursor: pointer;
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+	margin-top: 50px;
+}
+#container6img {
+	transform: skew(4deg);
+}
+.container6text {
+	display: flex;
+	margin-left: 40px;
+}
+.container6space {
+	height: 100px;
+}
+#container6-heading {
+	font-weight: bold;
+	font-size: 90px;
+	margin-left: 50px;
+	margin-top: 90px;
+	color: white;
+
+}
+.container7text {
+	display: flex;
+}
+#container7heading {
+	font-weight: bold;
+	font-size: 90px;
+	margin-left: 50px;
+	margin-top: 90px;
+
+}
+#container7paragraph {
+	font-weight: normal;
+	font-size: 25px;
+}
+#IMG4btn {
+	background-color: #48e3fa;
+	cursor: pointer;
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+}
+#container7img {
+	margin-left: 90px;
+
+} 
+.container7space {
+	height: 200px;
+}
+.container8 {
+	text-align: center;
+}
+ 
+#container8heading {
+	font-weight: bold;
+	font-size: 90px;
+	margin-left: 50px;
+	margin-top: 90px;
+
+}
+ 
+#container8paragraph {
+	font-weight: normal;
+	font-size: 25px;
+}
+#rightimglast {
+	right: 0; 
+	position: absolute;
+}
+.footercontant {
+	display: flex;
+}
+#footercontanthead1 {
+	font-weight: bold;
+	font-size: 37px;
+	margin-left: 50px;
+	margin-top: 90px;
+}
+#footer-contant-paragraph1 {
+	font-weight: normal;
+	font-size: 23px;
+    color: lightslategrey;
+    line-height: 1.5;
+}
+#footercontanthead2 {
+	font-weight: bold;
+	font-size: 37px;
+	margin-left: 50px;
+	margin-top: 90px;
+}
+#footer-contant-paragraph2 {
+	font-weight: normal;
+	font-size: 23px;
+    color: lightslategrey;
+    line-height: 1.5;
+}
+.lastline {
+	font-weight: normal;
+	font-size: 23px;
+    color: lightslategrey;
+    line-height: 1.5;
+    margin-left: 10px;
+    width: 30%;
+    text-align: center;
+}
+.container10space {
+	height: 100px;
+}
+
+
