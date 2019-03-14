@@ -1,3 +1,22 @@
+header {
+	position: fixed;
+	z-index: 9999;
+	height: 200px;
+}
+.navbar {
+	width: 50%;
+}
+li.nav-item {
+    margin-left: inherit;
+    text-transform: uppercase;
+    color: white;
+    list-style-type: none;
+
+}
+ul.navbar-nav {
+    display: flex;
+    margin-left: 40%;
+}
 .fullHeader {
     background-size: 100%;
 	width: 100%;
@@ -69,8 +88,8 @@
 	cursor: pointer;
 	}
 .container2-text {
-	-webkit-clip-path: polygon(100% 0, 100% 86%, 0 100%, 0 8%);
-	clip-path: polygon(100% 0, 100% 86%, 0 100%, 0 8%);
+	-webkit-clip-path: polygon(45% 0, 100% 0, 100% 75%, 100% 86%, 0 100%, 0 9%);
+	clip-path: polygon(45% 0, 100% 0, 100% 75%, 100% 86%, 0 100%, 0 9%);
 	background-color: #7d95ff;
 	z-index: -8;
 	 
@@ -128,7 +147,7 @@
 	position: absolute;
 	z-index: 2;
 	right: 0;
-	top: 60%;
+	top: 30%;
 	}
 .space {
 	width: 100%;
