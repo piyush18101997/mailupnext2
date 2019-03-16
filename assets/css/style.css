@@ -24,7 +24,7 @@ ul.navbar-nav {
 	width: 130px;
 	height: 30px;
 	border-radius: 5%;
-	background-color: #48e3fa;
+	background-color: #329692;
 	font-size: 12px;
 	text-transform:uppercase;
 	color: white;
@@ -34,7 +34,7 @@ ul.navbar-nav {
 	width: 80px;
 	height: 30px;
 	border-radius: 5%;
-	background-color: #48e3fa;
+	background-color: #329692;
 	font-size: 15px;
 	text-transform:uppercase;
 	color: white;
@@ -66,7 +66,7 @@ ul.navbar-nav {
 	-webkit-clip-path: polygon(0 8%, 100% 0, 100% 86%, 0% 100%);
 	clip-path: polygon(0 8%, 100% 0, 100% 86%, 0% 100%);
 	background-color: #7d95ff;
-	background: url(../img/more-stuff-bg.png) no-repeat center, linear-gradient(135deg, #bfacff 0, #795fff 100%);
+	background: url(../2/more-stuff-bg.png) no-repeat center, linear-gradient(135deg, #bfacff 0, #795fff 100%);
 	}
 .container8 {
 	-webkit-clip-path: polygon(0 22%, 100% 0, 100% 74%, 0% 100%);
@@ -92,11 +92,12 @@ ul.navbar-nav {
 	letter-spacing: 1px;
 	}
 #container2btn {
-	background-color: #48e3fa;
+	background-color: #329692;
 	cursor: pointer;
 	width: 300px;
 	height: 60px;
 	font-size: 17px;
+	color: white;
 	} 
 .img1 {
 	position: absolute;
@@ -132,11 +133,12 @@ ul.navbar-nav {
 	margin-left: 80px;
 	}
 #IMG2btn {
-	background-color: #48e3fa;
+	background-color: #329692;
 	cursor: pointer;
 	width: 200px;
 	height: 60px;
 	font-size: 20px;
+	color: white;
 	}
 .container2space {
 	height: 100px;
@@ -146,9 +148,7 @@ ul.navbar-nav {
 	color: black;
 	margin-left: 80px;
 }
-.container3-text {
-	display: flex;
-}
+
 .rightimg2 {
 	margin-top: 70px;
 	margin-left: 2px;
@@ -166,9 +166,7 @@ ul.navbar-nav {
 .container3space {
 	height: 100px;
 }
-.container4img {
-	display: flex;
-}
+
 .rightimg4 {
 	margin-top: 100px;
 	margin-left: 78px;
@@ -185,7 +183,7 @@ ul.navbar-nav {
 	font-size: 25px;
 }
 #IMG3btn {
-	background-color: #48e3fa;
+	background-color: #329692;
 	cursor: pointer;
 	width: 200px;
 	height: 60px;
@@ -216,10 +214,10 @@ ul.navbar-nav {
 }
 .rightimg5 {
 	margin-top: -47%;
-    margin-left: -95px;
+    margin-left: -70px;
 }
 #IMG5btn {
-	background-color: #48e3fa;
+	background-color: #329692;
 	cursor: pointer;
 	width: 200px;
 	height: 60px;
@@ -227,11 +225,8 @@ ul.navbar-nav {
 	margin-top: 50px;
 }
 #container6img {
-	transform: skew(4deg);
-}
-.container6text {
-	display: flex;
-	margin-left: 40px;
+	transform: skew(3deg);
+	margin-left: 3%;
 }
 .container6space {
 	height: 100px;
@@ -259,7 +254,7 @@ ul.navbar-nav {
 	font-size: 25px;
 }
 #IMG4btn {
-	background-color: #48e3fa;
+	background-color: #329692;
 	cursor: pointer;
 	width: 200px;
 	height: 60px;
