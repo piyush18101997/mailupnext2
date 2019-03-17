@@ -15,7 +15,7 @@ li.nav-item {
 }
 ul.navbar-nav {
     display: flex;
-    margin-left: 40%;
+    margin-left: 30%;
 }
  .rightmenu ul li:hover{
 	color: #00FF00;
@@ -41,6 +41,9 @@ ul.navbar-nav {
 	cursor: pointer;
 	}
 .row {
+	display: flex;
+}
+#flex-wrap {
 	display: flex;
 }
 .col-6 {
@@ -102,7 +105,7 @@ ul.navbar-nav {
 .img1 {
 	position: absolute;
 	z-index: 2;
-	right: 0;
+	right: 15px;
 	top: 30%;
 	}
 .space {
@@ -124,7 +127,7 @@ ul.navbar-nav {
 .pattern-right {
 	z-index: -1;
 	position: absolute;
-	justify-content: right;
+	right: 24px;
 	margin-top: -155px;
 	}
 .btn2 {
@@ -144,9 +147,9 @@ ul.navbar-nav {
 	height: 100px;
 }
 #container3-heading{
-	font-size: 75px;
+	font-size: 60px;
 	color: black;
-	margin-left: 80px;
+	margin-left: 50px;
 }
 
 .rightimg2 {
@@ -174,13 +177,13 @@ ul.navbar-nav {
 }
 #container4-heading {
 	font-weight: bold;
-	font-size: 90px;
-	margin-left: 90px;
+	font-size: 70px;
+	margin-left: 80px;
 	margin-top: -40px;
 }
 #container4-paragraph {
-	font-weight: normal;
-	font-size: 25px;
+	font-weight: ;
+	font-size: 20px;
 }
 #IMG3btn {
 	background-color: #329692;
@@ -205,16 +208,17 @@ ul.navbar-nav {
 
 #container5heading-text {
 	font-weight: bold;
-	font-size: 70px;
-	margin-left: 90px;
+	font-size: 60px;
+	margin-left: 80px;
 }
 #container5paragraph {
 	font-weight: normal;
-	font-size: 25px;
+	font-size: 20px;
+	font-family: cursive;
 }
 .rightimg5 {
 	margin-top: -47%;
-    margin-left: -70px;
+    margin-left: -60px;
 }
 #IMG5btn {
 	background-color: #329692;
@@ -226,14 +230,14 @@ ul.navbar-nav {
 }
 #container6img {
 	transform: skew(3deg);
-	margin-left: 3%;
+	margin-left: 6%;
 }
 .container6space {
 	height: 100px;
 }
 #container6-heading {
 	font-weight: bold;
-	font-size: 90px;
+	font-size: 60px;
 	margin-left: 50px;
 	margin-top: 90px;
 	color: white;
@@ -244,14 +248,14 @@ ul.navbar-nav {
 }
 #container7heading {
 	font-weight: bold;
-	font-size: 90px;
+	font-size: 60px;
 	margin-left: 50px;
 	margin-top: 90px;
 
 }
 #container7paragraph {
 	font-weight: normal;
-	font-size: 25px;
+	font-size: 20px;
 }
 #IMG4btn {
 	background-color: #329692;
@@ -284,7 +288,7 @@ ul.navbar-nav {
 	font-size: 25px;
 }
 #rightimglast {
-	right: 0; 
+	right: 10px; 
 	position: absolute;
 }
 .footercontant {
@@ -326,5 +330,3 @@ ul.navbar-nav {
 .container10space {
 	height: 100px;
 }
-
-
