@@ -206,12 +206,12 @@ ul.navbar-nav {
 	display: flex;
 }
 
-#container5heading-text {
+#container-heading-text {
 	font-weight: bold;
 	font-size: 60px;
 	margin-left: 80px;
 }
-#container5paragraph {
+#container-paragraph {
 	font-weight: normal;
 	font-size: 20px;
 	font-family: cursive;
@@ -287,17 +287,16 @@ ul.navbar-nav {
 	font-weight: normal;
 	font-size: 25px;
 }
-#rightimglast {
+#right-pattern {
 	right: 10px; 
 	position: absolute;
 }
-.footercontant {
+.footer-contant {
 	display: flex;
 }
-#footercontanthead1 {
+#footer-contant-head1 {
 	font-weight: bold;
 	font-size: 37px;
-	margin-left: 50px;
 	margin-top: 90px;
 }
 #footer-contant-paragraph1 {
@@ -306,7 +305,7 @@ ul.navbar-nav {
     color: lightslategrey;
     line-height: 1.5;
 }
-#footercontanthead2 {
+#footer-contant-head2 {
 	font-weight: bold;
 	font-size: 37px;
 	margin-left: 50px;
