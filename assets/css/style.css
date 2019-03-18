@@ -24,7 +24,7 @@ ul.navbar-nav {
 	width: 130px;
 	height: 30px;
 	border-radius: 5%;
-	background-color: #329692;
+	background-color: #85bf31;
 	font-size: 12px;
 	text-transform:uppercase;
 	color: white;
@@ -34,7 +34,7 @@ ul.navbar-nav {
 	width: 80px;
 	height: 30px;
 	border-radius: 5%;
-	background-color: #329692;
+	background-color: #85bf31;
 	font-size: 15px;
 	text-transform:uppercase;
 	color: white;
@@ -95,7 +95,7 @@ ul.navbar-nav {
 	letter-spacing: 1px;
 	}
 #container2btn {
-	background-color: #329692;
+	background-color: #85bf31;
 	cursor: pointer;
 	width: 300px;
 	height: 60px;
@@ -135,8 +135,8 @@ ul.navbar-nav {
 	margin-top: -20px;
 	margin-left: 80px;
 	}
-#IMG2btn {
-	background-color: #329692;
+#signup-btn2 {
+	background-color: #85bf31;
 	cursor: pointer;
 	width: 200px;
 	height: 60px;
@@ -163,7 +163,7 @@ ul.navbar-nav {
 	width: 600px;
 	letter-spacing: 1.2px;
 }
-.rightimg3 {
+.pattern-left {
 	margin-top: -80px;
 }
 .container3space {
@@ -185,8 +185,8 @@ ul.navbar-nav {
 	font-weight: ;
 	font-size: 20px;
 }
-#IMG3btn {
-	background-color: #329692;
+#signup-btn3 {
+	background-color: #85bf31;
 	cursor: pointer;
 	width: 200px;
 	height: 60px;
@@ -216,12 +216,12 @@ ul.navbar-nav {
 	font-size: 20px;
 	font-family: cursive;
 }
-.rightimg5 {
+.pattern-left2 {
 	margin-top: -47%;
     margin-left: -60px;
 }
 #IMG5btn {
-	background-color: #329692;
+	background-color: #85bf31;
 	cursor: pointer;
 	width: 200px;
 	height: 60px;
@@ -257,8 +257,8 @@ ul.navbar-nav {
 	font-weight: normal;
 	font-size: 20px;
 }
-#IMG4btn {
-	background-color: #329692;
+#signup-btn4 {
+	background-color: #85bf31;
 	cursor: pointer;
 	width: 200px;
 	height: 60px;
