@@ -171,6 +171,19 @@
 						<div class="container10space"></div>
 				</div>
 		</section>
+		<script>
+		function myFunction(x) {
+		  if (x.matches) {  
+		    document.body.style.backgroundColor = "pink";
+		  } else {
+		   document.body.style.backgroundColor = "";
+		  }
+		}
+		var x = window.matchMedia("(max-width: 700px)")
+		myFunction(x)  
+		x.addListener(myFunction) 
+		</script>
+
 	</body>
 </html>
 

@@ -48,6 +48,30 @@ ul.navbar-nav {
 .col-6 {
 	z-index: 4;
 }
+@media screen and (max-width: 500px) {
+	header {
+	position: fixed;
+	z-index: 9999;
+	height: 100%;
+}
+ul.navbar-nav {
+    display: flex;
+    margin-left: 4%; 
+    }
+li.nav-item {
+    margin-left: inherit;
+    text-transform: uppercase;
+    color: white;
+    list-style-type: none;
+
+}
+ .rightmenu ul li:hover{
+	color: #00FF00;
+	}
+.col-6 {
+	z-index: 4;
+}
+}
 .container2-text {
 	-webkit-clip-path: polygon(45% 0, 100% 0, 100% 75%, 100% 86%, 0 100%, 0 9%);
 	clip-path: polygon(45% 0, 100% 0, 100% 75%, 100% 86%, 0 100%, 0 9%);
